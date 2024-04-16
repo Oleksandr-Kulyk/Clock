@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1f9ccc;
+  color: white;
+}
+
+.time-box {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.date-box {
+  font-size: 24px;
+  padding-left: 15px;
+}
+
